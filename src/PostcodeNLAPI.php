@@ -13,7 +13,7 @@ class PostcodeNLAPI
 
 	public function __construct()
 	{
-		$credentials = base64_encode(config('postcodenl.key') . ':' . config('postcodenl.secret'));
+		$credentials = base64_encode(config('postcodenl.api.key') . ':' . config('postcodenl.api.secret'));
 
         $this->client = new Client([
             'headers' => [

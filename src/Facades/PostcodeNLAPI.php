@@ -8,6 +8,6 @@ class PostcodeNLAPI extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'postcodenlapi';
+        return 'postcodenl';
     }
 }

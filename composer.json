@@ -3,7 +3,7 @@
     "description": "Laravel PostcodeNL API package",
     "type": "library",
     "license": "MIT",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "homepage": "https://github.com/deniztezcan/laravel-postcodenl-api",
     "authors": [
         {
